@@ -8,6 +8,7 @@ import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { signOut } from "../../redux/actions/user";
 import WelcomeName from "../pages/profile";
 import Logo from "../../assets/images/logo.png";
+import Clock from 'react-live-clock';
 
 const Header = (props) => {
   const dispatch = useDispatch();
@@ -46,37 +47,17 @@ const Header = (props) => {
           size="25px"
           weight="bold"
           color="#F3EA16"
-          margin="0 0 0 1vw"
+          // margin="0 0 0 1vw"
           lineHeight="0px"
         >
-          PRACTO
+          RACTO
         </Text>
       </Container>
-      <Container
-        direction="row"
-        justify="center"
-        align="flex-end"
-        height="50px"
-        flex="0.8"
+      <div
+        
       >
-        {/* {isLogin && check && (
-          <>
-            <Tab
-              active={history.location.pathname === "/host"}
-              onClick={() => history.push("/host")}
-            >
-              Host
-            </Tab>
-
-            <Tab
-              active={history.location.pathname === "/exam"}
-              onClick={() => history.push("/exam")}
-            >
-              Exam
-            </Tab>
-          </>
-        )} */}
-      </Container>
+      <Clock format={'HH:mm:ss'} ticking={true} timezone={'US/Pacific'} />
+      </div>
       <Container
         direction="row"
         justify="flex-end"
