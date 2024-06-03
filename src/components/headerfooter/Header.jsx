@@ -56,7 +56,7 @@ const Header = (props) => {
       <div
         
       >
-      <Clock format={'HH:mm:ss'} ticking={true} timezone={'US/Pacific'} />
+      <Clock format={'HH:mm:ss'} ticking={true} timezone={'Asia/Kolkata'} />
       </div>
       <Container
         direction="row"
