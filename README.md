@@ -5,17 +5,13 @@ This is an Online examintion system with Video Surveillance.
 
 ## Project Essentials Links:
 - [website link](https://practoexam.vercel.app/signin)
-- [Backend GitHub repo link](https://github.com/Nayan-Bera/Practo-Backend)
+
 
 ## Installation
 
 Install this project with npm
 
-```bash
-  git clone https://github.com/Nayan-Bera/Pracrto-frontend.git
-  cd Practo-frontend
-  npm install
-```
+
 
 ## Environment Variables
 
